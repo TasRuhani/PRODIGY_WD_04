@@ -856,7 +856,10 @@ span {
         height: 56vw;
     }
     .liquid-box{
-        
+        width: 90vw;
+        height: 90vw;
+        margin-top: 22%;
+        margin-left: 22%;
     }
 
     .experiences h2{
@@ -880,5 +883,12 @@ span {
 
     .project-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-layer h4{
+        font-size: 3rem;
+    }
+    .project-layer p{
+        font-size: 2rem;
     }
 }
